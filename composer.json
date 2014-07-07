@@ -1,0 +1,19 @@
+{
+    "name": "igorsantos07/yii-useridentity-trait",
+    "description": "Trait version of Yii 1.1 UserIdentity",
+    "keywords": ["yii","yii-1.1"],
+    "type": "yii-extension",
+    "require": {
+	"php": ">=5.4",
+        "yiisoft/yii": ">=1.1.14"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Santos",
+            "email": "igorsantos07@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
