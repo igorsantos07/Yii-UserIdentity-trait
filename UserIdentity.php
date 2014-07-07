@@ -1,4 +1,6 @@
 <?php
+namespace igorsantos07;
+
 /**
  * UserIdentity represents the data needed to identify a user.
  * It implements what's needed for {@link IUserIdentity}, and original code came from {@link CBaseUserIdentity}.
