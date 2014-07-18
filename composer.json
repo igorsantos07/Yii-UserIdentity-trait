@@ -7,16 +7,22 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
 
+	"authors": [
+		{
+			"name": "Igor Santos",
+			"email": "igorsantos07+dev@gmail.com",
+			"homepage": "http://www.igorsantos.com.br"
+		}
+	],
+
     "require": {
-	"php": ">=5.4",
+		"php": ">=5.4",
         "yiisoft/yii": ">=1.1.14"
     },
 
-    "authors": [
-        {
-            "name": "Igor Santos",
-            "email": "igorsantos07+dev@gmail.com",
-            "homepage": "http://www.igorsantos.com.br"
+	"autoload": {
+        "psr-4": {
+            "igorsantos07\\": "."
         }
-    ]
+	}
 }
